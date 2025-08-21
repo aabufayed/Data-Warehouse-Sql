@@ -1,8 +1,5 @@
-# Sales Data Warehouse & Analytics Project 🚀
+# Sales Data Warehouse & Analytics Project 
 
-Welcome to my comprehensive data warehousing and analytics project! This repository showcases an end-to-end data solution, from ingesting raw data to generating actionable business insights. It was inspired by the project from [Data With Baraa](https://www.youtube.com/@DataWithBaraa) and adapted using **MySQL** to demonstrate proficiency across different database systems.
-
-This project highlights industry best practices in data engineering, data modeling, and analytics, making it a powerful demonstration of my skills.
 
 ---
 
@@ -18,7 +15,7 @@ The project implements a modern **Medallion Architecture**, which logically orga
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This project is a complete data lifecycle demonstration, encompassing:
 
@@ -73,7 +70,7 @@ This schema simplifies complex queries and allows for fast aggregations, making 
 
 ---
 
-## 🚀 How to Run This Project
+##  How to Run This Project
 
 1.  **Set up MySQL**: Ensure you have a running instance of MySQL.
 2.  **Create Database**: Create a new database for this project.
@@ -84,7 +81,7 @@ This schema simplifies complex queries and allows for fast aggregations, making 
 
 ---
 
-## ✅ Key Skills Demonstrated
+##  Key Skills Demonstrated
 
 This project showcases my expertise in:
 
@@ -94,4 +91,3 @@ This project showcases my expertise in:
 * **Data Modeling**: Creating logical and physical data models (Star Schema) optimized for analytics.
 * **Data Analysis**: Translating business requirements into technical queries to deliver actionable insights.
 
-Thank you for reviewing my project! Feel free to reach out if you have any questions.
