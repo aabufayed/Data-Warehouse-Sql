@@ -1,6 +1,10 @@
-
 # Sales Data Warehouse & Analytics Project 🚀
 
+Welcome to my comprehensive data warehousing and analytics project! This repository showcases an end-to-end data solution, from ingesting raw data to generating actionable business insights. It was inspired by the project from [Data With Baraa](https://www.youtube.com/@DataWithBaraa) and adapted using **MySQL** to demonstrate proficiency across different database systems.
+
+This project highlights industry best practices in data engineering, data modeling, and analytics, making it a powerful demonstration of my skills.
+
+---
 
 ## 🏗️ Data Architecture
 
@@ -23,7 +27,7 @@ This project is a complete data lifecycle demonstration, encompassing:
 * **Analytics & Reporting**: Writing complex SQL queries to derive key business insights on customer behavior, product performance, and sales trends.
 * **Data Integration**: Merging data from disparate ERP and CRM systems into a unified, coherent model.
 
-![Data Integration](docs/Data%20integration.jpg)
+![Data Integration](docs/Data%20integration.png)
 
 ---
 
@@ -41,11 +45,11 @@ This project is a complete data lifecycle demonstration, encompassing:
 The data flows from raw files through the Bronze and Silver layers, ultimately landing in the Gold layer, which is structured as a star schema. This design places the core business metrics (**Fact Table**) at the center, linked to descriptive attributes (**Dimension Tables**).
 
 ### Data Flow Diagram
-![Data Flow](docs/Data%20Flow.jpg)
+![Data Flow](docs/Data%20Flow.png)
 
 ### Gold Layer: Star Schema
 This schema simplifies complex queries and allows for fast aggregations, making it ideal for analytics.
-![Star Schema](docs/Star.jpg)
+![Star Schema](docs/Star.png)
 
 ---
 
@@ -56,10 +60,10 @@ This schema simplifies complex queries and allows for fast aggregations, making 
 ├── datasets/             # Raw source data (ERP and CRM CSV files)
 ├── docs/                 # Project documentation and diagrams
 │   ├── Data Architecture approaches.png
-│   ├── Data Flow.jpg
-│   ├── Data integration.jpg
+│   ├── Data Flow.png
+│   ├── Data integration.png
 │   ├── Data Warehouse Layers.png
-│   └── Star.jpg
+│   └── Star.png
 ├── scripts/              # SQL scripts for the entire ETL process
 │   ├── 1_bronze/         # Scripts for creating schemas and loading raw data
 │   ├── 2_silver/         # Scripts for data cleaning and transformation
